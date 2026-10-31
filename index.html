@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,10 +10,16 @@
 
 <title>Fundamentals of Programming 2026</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,15 +68,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="index_files/libs/clipboard/clipboard.min.js"></script>
 <script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
 <script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="index_files/libs/quarto-html/popper.min.js"></script>
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="index_files/libs/quarto-html/anchor.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap-4d7f0bce1131f3e5f9547cd857cfbfc8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="index_files/libs/bootstrap/bootstrap-c2e55264ed47ce3b2e0326a2269f9400.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -113,7 +118,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-30 17:38</p>
+      <p class="date">2026-10-31 14:05</p>
     </div>
   </div>
   
@@ -158,7 +163,7 @@ To learn more markdown, create a copy of the file (<a href="https://github.com/b
 <li><label><input type="checkbox">use the modern chunk option format (at chunk top, not inside {}) for labels + options</label></li>
 <li><label><input type="checkbox" checked="">add a footnote somewhere in the text</label></li>
 <li><label><input type="checkbox" checked="">add an image (e.g.&nbsp;a screenshot or the DWD logo) with alt text</label></li>
-<li><label><input type="checkbox">set global execution options in the yaml (e.g.&nbsp;<code>warning: false</code>) instead of per-chunk</label></li>
+<li><label><input type="checkbox" checked="">set global execution options in the yaml (e.g.&nbsp;<code>warning: false</code>) instead of per-chunk</label></li>
 <li><label><input type="checkbox" checked="">add <code>fig-width</code> / <code>fig-height</code> as global defaults in the yaml</label></li>
 <li><label><input type="checkbox" checked="">add margin content with <code>column: margin</code> on a chunk or text block</label></li>
 </ul>
@@ -215,7 +220,7 @@ To learn more markdown, create a copy of the file (<a href="https://github.com/b
 <p>download recent weather data using <a href="https://brry.github.io/rdwd/">rdwd</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="logo_dwd.jpeg" class="img-fluid figure-img" width="150"></p>
+<p><img src="logo_dwd.jpeg" class="img-fluid figure-img" width="65"></p>
 <figcaption>Logo of The German Weather Service DWD (= Deutscher Wetterdienstes)</figcaption>
 </figure>
 </div>
@@ -278,8 +283,8 @@ To learn more markdown, create a copy of the file (<a href="https://github.com/b
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>count    550.000000
-mean      12.360182
-std        7.714890
+mean      12.348000
+std        7.718217
 min       -8.000000
 25%        7.500000
 50%       13.700000
