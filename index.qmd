@@ -6,6 +6,7 @@ date-format: "YYYY-MM-DD HH:mm"
 format:
   html:
     theme: cosmo
+    highlight-style: github
     toc: true
     fig-width: 7
     fig-height: 5
