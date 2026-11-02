@@ -29,31 +29,34 @@ with source code at the [repo](https://github.com/brry/FP26).
 ## Homework
 
 Implement **one** of the ideas below, following the instructions above.  
-To learn more markdown, create a copy of the file ([version at course start](https://github.com/brry/FP26/blob/40183444cc94076d9c0b2559d37a1a9bd45351e8/index.qmd) if wanted) in which you can implement many/all ideas. Each student should have some options available, so don't push those changes. 
+To learn more markdown, create a copy of the file ([version at course start](https://github.com/brry/FP26/blob/40183444cc94076d9c0b2559d37a1a9bd45351e8/index.qmd) if wanted) in which you can implement many/all ideas. Each student should have some options available, so don't push those changes.
 
-- [X] change the date format in the yaml header to include HH:mm after the day (*this one should be implemented early, please*)
-- [x] change this bullet list to checkboxes for ideas that are implemented
-- [x] link "version at course start" to the suitable github file history URL
-- [x] add some reasonable markdown code (e.g. strikethrough, link, reference, bold, cursive, ...)
-- [ ] in Rstudio: change the chunk output location setting to "console" (changes yaml header)
-- [x] make one single code chunk foldable (folded by default); leave all other chunks as is
-- [x] suppress the output of `updateRdwd` with a chunk option
-- [X] add a bit of text with the output of an inline code expression
-- [ ] improve the python output to not be split up but appear after all code (with a chunk option)
-- [ ] move done tasks to a nicely named collapsed section to declutter this overview
-- [ ] add a `knitr::kable` with a small subset of the dataset (with proper package importing)
-- [ ] format a plot as actual figures and add labels (chunk options)
-- [ ] elsewehere in the text, add a reference to that figure
-- [ ] change the date to the rendering time (note why in the commit - there is one particular reason)
-- [x] add a table of contents (yaml header option)
-- [ ] set a custom theme or highlight style in the yaml header
-- [ ] use the modern chunk option format (at chunk top, not inside {}) for labels + options
-- [x] add a footnote somewhere in the text
-- [x] add an image (e.g. a screenshot or the DWD logo) with alt text
-- [x] set global execution options in the yaml (e.g. `warning: false`) instead of per-chunk
-- [x] add `fig-width` / `fig-height` as global defaults in the yaml
-- [x] add margin content with `column: margin` on a chunk or text block
+- [ ] In RStudio: change the chunk output location setting to "console" (changes yaml header).
+- [ ] Improve the Python output to not be split up but appear after all code (with a chunk option).
+- [ ] Add a `knitr::kable` with a small subset of the dataset (with proper package importing).
+- [ ] Format a plot as actual figures and add labels (chunk options).
+- [ ] Elsewhere in the text, add a reference to that figure.
+- [ ] Change the date to the rendering time (note why in the commit - there is one particular reason).
+- [ ] Use the modern chunk option format (at chunk top, not inside {}) for labels + options.
 
+::: {.callout-note collapse="true"}
+## Completed ideas
+
+- [x] Change the date format in the YAML header to include HH:mm after the day.
+- [x] Change this bullet list to checkboxes for ideas that are implemented.
+- [x] Link "version at course start" to the suitable GitHub file history URL.
+- [x] Add some reasonable Markdown code (e.g. strikethrough, link, reference, bold, cursive, ...).
+- [x] Make one single code chunk foldable (folded by default); leave all other chunks as is.
+- [x] Suppress the output of `updateRdwd` with a chunk option.
+- [x] Add a bit of text with the output of an inline code expression.
+- [x] Add a table of contents (YAML header option).
+- [x] Set a custom theme or highlight style in the YAML header.
+- [x] Add a footnote somewhere in the text.
+- [x] Add an image with alt text.
+- [x] Set global execution options in the YAML (e.g. `warning: false`) instead of per-chunk.
+- [x] Add `fig-width` / `fig-height` as global defaults in the YAML.
+- [x] Add margin content with `column: margin` on a chunk or text block.
+:::
 ::: {.callout-tip collapse="true"}
 ## click here for further ideas
 
